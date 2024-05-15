@@ -1,0 +1,220 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  h1 {
+    font-size: 2em;
+    font-family: "Core Sans N W01 35 Light";
+    font-weight: normal;
+    margin: 0.67em 0;
+    display: block;
+  }
+  
+  #registered {
+    margin-top: 50px;
+  }
+  
+  #registered img {
+    margin-bottom: 0px;
+    width: 100px;
+    height: 100px;
+  }
+  
+  #registered span {
+    clear: both;
+    display: block;
+  }
+  
+  img {
+    margin-bottom: 20px;
+  }
+  
+  .avatar {
+    margin: 10px 0 20px 0;
+  }
+  
+  .module {
+    position: relative;
+    top: 10%;
+    height: 65%;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  
+  
+  
+ 
+  .body-content {
+    position: relative;
+    top: 20px;
+    height: 70%;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    background: transparent;
+  }
+  
+  select,
+  textarea,
+  input[type="text"],
+  input[type="password"],
+  input[type="date"],
+  input[type="number"] {
+    height: 30px;
+    width: 100%;
+    display: inline-block;
+    vertical-align: middle;
+    height: 34px;
+    padding: 0 10px;
+    margin-top: 3px;
+    margin-bottom: 10px;
+    font-size: 15px;
+    line-height: 20px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: rgba(255, 255, 255, 0.7);
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    border-radius: 2px;
+  }
+  
+  select,
+  textarea,
+  input[type="text"],
+  input[type="password"],
+  input[type="email"] {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    -ms-appearance: none;
+    appearance: none;
+    -webkit-transition: background-position 0.2s, background-color 0.2s,
+      border-color 0.2s, box-shadow 0.2s;
+    transition: background-position 0.2s, background-color 0.2s, border-color 0.2s,
+      box-shadow 0.2s;
+  }
+  select:hover,
+  textarea:hover,
+  input[type="text"]:hover,
+  input[type="password"]:hover,
+  input[type="email"]:hover {
+    border-color: rgba(255, 255, 255, 0.5);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: rgba(255, 255, 255, 0.7);
+  }
+  select:focus,
+  textarea:focus,
+  input[type="text"]:focus,
+  input[type="password"]:focus,
+  input[type="email"]:focus {
+    border: 2px solid;
+    border-color: #03e9f4;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #ffffff;
+  }
+  .login-box form a {
+    position: relative;
+    display: inline-block;
+    padding: 10px 20px;
+    color: #03e9f4;
+    font-size: 16px;
+    text-decoration: none;
+    text-transform: uppercase;
+    overflow: hidden;
+    transition: .5s;
+    margin-top: 40px;
+    letter-spacing: 4px
+  }
+  
+  .login-box a:hover {
+    background: #03e9f4;
+    color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 5px #03e9f4,
+                0 0 25px #03e9f4,
+                0 0 50px #03e9f4,
+                0 0 100px #03e9f4;
+  }
+  
+  .login-box a span {
+    position: absolute;
+    display: block;
+  }
+  
+  .login-box a span:nth-child(1) {
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(90deg, transparent, #03e9f4);
+    animation: btn-anim1 1s linear infinite;
+  }
+  
+  @keyframes btn-anim1 {
+    0% {
+      left: -100%;
+    }
+    50%,100% {
+      left: 100%;
+    }
+  }
+  
+  .login-box a span:nth-child(2) {
+    top: -100%;
+    right: 0;
+    width: 2px;
+    height: 100%;
+    background: linear-gradient(180deg, transparent, #03e9f4);
+    animation: btn-anim2 1s linear infinite;
+    animation-delay: .25s
+  }
+  
+  @keyframes btn-anim2 {
+    0% {
+      top: -100%;
+    }
+    50%,100% {
+      top: 100%;
+    }
+  }
+  
+  .login-box a span:nth-child(3) {
+    bottom: 0;
+    right: -100%;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(270deg, transparent, #03e9f4);
+    animation: btn-anim3 1s linear infinite;
+    animation-delay: .5s
+  }
+  
+  @keyframes btn-anim3 {
+    0% {
+      right: -100%;
+    }
+    50%,100% {
+      right: 100%;
+    }
+  }
+  
+  .login-box a span:nth-child(4) {
+    bottom: -100%;
+    left: 0;
+    width: 2px;
+    height: 100%;
+    background: linear-gradient(360deg, transparent, #03e9f4);
+    animation: btn-anim4 1s linear infinite;
+    animation-delay: .75s
+  }
+  
+  @keyframes btn-anim4 {
+    0% {
+      bottom: -100%;
+    }
+    50%,100% {
+      bottom: 100%;
+    }
+  }
+  

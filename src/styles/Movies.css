@@ -1,0 +1,11 @@
+.card-container{
+    width:410px;
+     height:560px;
+      background-color:"white";
+       margin:13px;
+
+}
+.card-container:hover{
+    background-color: #3ED7DF;
+    transition: background-color 0.3s ease; /* Optional: Add transition effect */
+}
